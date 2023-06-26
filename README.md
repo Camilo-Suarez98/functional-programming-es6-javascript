@@ -5,7 +5,6 @@ This is a solution to the functional-programming-es6-javascript project of the M
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -16,17 +15,10 @@ This is a solution to the functional-programming-es6-javascript project of the M
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- Task 1
-- Task 2
-
 ### Screenshot
+
 #### Exercise with array of numberrs
 <img width="800" alt="image" src="https://github.com/Camilo-Suarez98/functional-programming-es6-javascript/assets/68169750/3bd644bd-2476-4ac3-98ec-b20812b2c4c0">
-
 
 ## My process
 
@@ -36,25 +28,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned about reduce and how can i use it in different exercises
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+const total = arr.reduce((initValue, currentValue) => initValue + currentValue, 0)
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Useful resources
 
